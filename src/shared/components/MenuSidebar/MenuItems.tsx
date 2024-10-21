@@ -4,7 +4,7 @@ import { Path } from "../../../infra/Path";
 type MenuProps = {
   label: string;
   path: string;
-  icon: React.ForwardRefExoticComponent<Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>>; // Use Lucide icons as the menu item icon. For example: House, BadgeDollarSign
+  icon: React.ForwardRefExoticComponent<Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
 };
 
 export const MenuItems: MenuProps[] = [

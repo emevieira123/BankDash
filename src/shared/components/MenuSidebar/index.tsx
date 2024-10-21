@@ -12,6 +12,7 @@ export function MenuSidebar() {
       borderColor={"blackAlpha.300"}
       flexDir={"column"}
       gap={2}
+      position={"fixed"}
     >
       <Flex align={"center"} justify={"center"} gap={2} py={"1rem"}>
         <IconCardBank />

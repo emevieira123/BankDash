@@ -8,7 +8,7 @@ interface ContentPageProps {
 
 export function ContentPage({ children, title }: ContentPageProps) {
   return (
-    <Box w={"100%"} minH={"100vh"} bg={"gray.100"}>
+    <Box w={"100%"} ml="15rem">
       <Flex
         bg={"white"}
         h={"4rem"}
@@ -16,7 +16,7 @@ export function ContentPage({ children, title }: ContentPageProps) {
         justify={"space-between"}
         px={"2rem"}
       >
-        <Text fontSize={24} color={"blue.700"} fontWeight={"semibold"}>
+        <Text fontSize={24} color={"blue.800"} fontWeight={"semibold"}>
           {title}
         </Text>
         <Flex gap={6} align={"center"}>
@@ -58,7 +58,9 @@ export function ContentPage({ children, title }: ContentPageProps) {
           />
         </Flex>
       </Flex>
-      {children}
+      <Box w={"100%"} h={"100%"} p={"1.5rem"} bg={"gray.100"}>
+        {children}
+      </Box>
     </Box>
   );
 }
