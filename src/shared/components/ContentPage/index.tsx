@@ -58,7 +58,7 @@ export function ContentPage({ children, title }: ContentPageProps) {
           />
         </Flex>
       </Flex>
-      <Box w={"100%"} h={"100%"} p={"1.5rem"} bg={"gray.100"}>
+      <Box w={"100%"} p={"1.5rem"} bg={"gray.100"}>
         {children}
       </Box>
     </Box>
