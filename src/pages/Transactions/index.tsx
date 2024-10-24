@@ -1,9 +1,10 @@
-import { Flex } from "@chakra-ui/react";
+import { ContentPage } from "../../shared/components/ContentPage";
+import { MyCardsAndMyExpense } from "./components/MyCardsAndMyExpense";
 
 export default function Transactions() {
   return (
-    <Flex>
-      Transactions
-    </Flex>
+    <ContentPage title="Transactions">
+      <MyCardsAndMyExpense />
+    </ContentPage>
   );
 }
