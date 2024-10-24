@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/react";
-import { BasicColumnChat } from "../../../../shared/components/Charts/Column/BasicColumnChart";
+import { BasicColumnChat } from "../WeeklyActivity/BasicColumnChart";
 import { ExpenseStatistics } from "../ExpenseStatistics";
 
 export function ActivitysAndStatistics() {
